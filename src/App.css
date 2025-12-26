@@ -1,0 +1,56 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 30px;
+  background: #222;
+  color: white;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.hero {
+  text-align: center;
+  padding: 80px 20px;
+  background: #f5f5f5;
+}
+
+.hero button {
+  padding: 10px 20px;
+  background: #ff5722;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.features, .about, .contact {
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.feature-cards {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.card {
+  padding: 20px;
+  background: #eee;
+  width: 150px;
+}
+
+.footer {
+  text-align: center;
+  padding: 15px;
+  background: #222;
+  color: white;
+}
